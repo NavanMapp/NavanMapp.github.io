@@ -1,8 +1,9 @@
-
+// declaring variables
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
 const navLogo = document.querySelector('#navbar_logo');
 
+// toggle activity
 const mobileMenu = () => {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
@@ -11,7 +12,6 @@ const mobileMenu = () => {
 menu.addEventListener('click', mobileMenu);
 
 //shopw active  menu when scrolling
-
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
     const homeMenu = document.querySelector('#home-page');
@@ -42,6 +42,7 @@ const highlightMenu = () => {
 
 };
 
+// auto scroll ability when clicking buttons
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
 
@@ -54,5 +55,12 @@ const hideMobile = () => {
     }
 };
 
+// activity when the repair buttons are clicked
+const logOut = document.getElementById('repairBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert("Please sign in to log a query with support, Thank you!");
+});
+
+// Navigation menu activity on a mobile device
 menuLinks.addEventListener('click', hideMobile);
 navLogo.addEventListener('click', hideMobile);

@@ -43,17 +43,17 @@
             <div class="main_content">
                 <h1>Get In Touch</h1>
                 <p>We are always ready to hear from you.</p>
-                <p>Send us an email and we will get back to you.</p><br>
+                <p>Send us an email logging your query and we will make sure our skilled support team contacts you.</p><br>
             </div>
             <div class="main_content">
                 <p>Send Us A Message</p>
                 <h3>Name:</h3>
-                <input type="text"><br>
+                <input id="name" type="text"><br>
                 <h3>Email:</h3>
-                <input type="text"><br>
-                <h3>Comment or Message:</h3>
-                <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea><br>
-                <button class="main_btn"><a href="/">Send Message</a></button>
+                <input id="email" type="text"><br>
+                <h3>Details of what services you are interested in and fault of devices:</h3>
+                <textarea name="textArea" id="comment" cols="30" rows="10"></textarea><br>
+                <button id="main_btn" class="main_btn"><a>Send Message</a></button>
             </div>
         </div>
     </div>
@@ -85,13 +85,30 @@
         <section class="social_media">
             <div class="social_mediaWrap">
               <div class="footer_logo">
-                <a href="/" id="footer_logo">MAPP SUPREME</a>
+                <a href="./main.html" id="footer_logo">MAPP SUPREME</a>
               </div>
               <p class="website_rights">© MAPP SUPREME 2023. All Rights Reserved</p>
               </div>
             </div>
           </section>
     </div>
+
+    <!-- firebase CDN scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    
+        <!-- firebase CDN scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+
+    <script src="/NavanMapp.github.io/scripts/firebase-conifg.js"></script>
+
+    <script src="/NavanMapp.github.io/scripts/contactus.js"></script>
     <script src="/NavanMapp.github.io/scripts/app.js"></script>
 </body>
 </html>

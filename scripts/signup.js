@@ -52,8 +52,6 @@ const registerBtn = document.getElementById("btnSignUp").addEventListener('click
             console.log("unable to fetch document", error);
         });
 
-    {
-
         const today = new Date();
         firebase.auth().createUserWithEmailAndPassword(email, password)
         .then((userCredentials) => {
@@ -77,5 +75,4 @@ const registerBtn = document.getElementById("btnSignUp").addEventListener('click
                 window.location.href = "login.html";
             });
         });
-    } 
 });
