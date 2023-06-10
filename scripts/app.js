@@ -56,7 +56,27 @@ const hideMobile = () => {
 };
 
 // activity when the repair buttons are clicked
-const logOut = document.getElementById('repairBtn').addEventListener('click', (e) => {
+const repairBtn = document.getElementById('repairBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert("Please sign in to log a query with support, Thank you!");
+});
+
+const repairBtn2 = document.getElementById('repairBtn2').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert("Please sign in to log a query with support, Thank you!");
+});
+
+const repairBtn3 = document.getElementById('repairBtn3').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert("Please sign in to log a query with support, Thank you!");
+});
+
+const repairBtn4 = document.getElementById('repairBtn4').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert("Please sign in to log a query with support, Thank you!");
+});
+
+const scheduleBtn = document.getElementById("scheduleBtn").addEventListener('click', (e) => {
     e.preventDefault();
     alert("Please sign in to log a query with support, Thank you!");
 });
