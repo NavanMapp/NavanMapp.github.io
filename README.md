@@ -27,7 +27,7 @@
 
 ## About The Project
 
-<img src="images/screenshot.JPG" alt="Logo" width="100" height="120">
+<img src="images/screenshot.JPG" alt="Logo">
 
 ## Objectives:
 
