@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/ShaanCoding/ReadME-Generator">
+  <a href="https://github.com/NavanMapp/NavanMapp.github.io">
     <img src="images/icon -white.png" alt="Logo" width="100" height="120">
   </a>
 
@@ -9,7 +9,7 @@
 
   <p align="center">
     listing IT services & Expertise Portfolio
-  <a href="https://navanmapp.github.io/"></a>  
+  <a><link href="https://navanmapp.github.io/"></a>  
   <br/>
     <br/>
   </p>
