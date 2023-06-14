@@ -24,7 +24,7 @@
 
 ## About The Project
 
- [CLICK ON PICTURE TO GO TO WEBSITE](https://NavanMapp.github.io/)  
+ [NavanMapp.github.io](https://NavanMapp.github.io/)  
 
 <a href="https://NavanMapp.github.io">
     <img src="images/screenshot.JPG" alt="Logo">
