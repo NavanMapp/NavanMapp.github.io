@@ -1,6 +1,6 @@
 Company portfolio website listing IT services being offered by Mapp Supreme
 
-![Alt text](../../../../../d:/Pictures/Mapp%20Supreme/Capturde.JPG)
+Capturde.JPG
 
 This project entails index.html file which is the landing page of the project which has details, services and log In & sign Up html pages and options so that the company and users can interact further. the user enters their email, name, and password to the sign in page which is stored in Firebase database system, the user is redirected to login. which inevitably lands them to the main.html which enables users to log queries and extend their views and book services from the company.
 The Project backend is held by the firebase-config.js, signup.js & login.js javascript files which handles the taking of user information from the frontend html pages and stores them to a DB.
