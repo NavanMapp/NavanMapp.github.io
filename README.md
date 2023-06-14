@@ -10,9 +10,6 @@
   <p align="center">
     listing IT services & Expertise Portfolio
   <br/>
-
-  [NavanMapp.github.io]("https://navanmapp.github.io/")  
-
   </p>
 </p>
 
@@ -27,7 +24,11 @@
 
 ## About The Project
 
-<img src="images/screenshot.JPG" alt="Logo">
+ [NavanMapp.github.io]("https://navanmapp.github.io/")  
+
+<a href="https://NavanMapp.github.io">
+    <img src="images/screenshot.JPG" alt="Logo">
+  </a>
 
 ## Objectives:
 
