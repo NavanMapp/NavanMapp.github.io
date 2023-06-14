@@ -13,6 +13,7 @@ const registerBtn = document.getElementById("btnSignUp").addEventListener('click
         return false;
     }
 
+    //
     // if (!(/^\w+([\.-]?\w+)*@w+([\.-]?\w+)*(\.w{2,3})+$/.test(email))) {
     //     $("#email").css("border-bottom", "solid red 2px");
     //     $("#error-email").text("Invalid email address format");
