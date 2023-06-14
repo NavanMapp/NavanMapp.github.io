@@ -61,21 +61,25 @@ const repairBtn = document.getElementById('repairBtn').addEventListener('click',
     alert("Please sign in to log a query with support, Thank you!");
 });
 
+// activity when the repair buttons are clicked
 const repairBtn2 = document.getElementById('repairBtn2').addEventListener('click', (e) => {
     e.preventDefault();
     alert("Please sign in to log a query with support, Thank you!");
 });
 
+// activity when the repair buttons are clicked
 const repairBtn3 = document.getElementById('repairBtn3').addEventListener('click', (e) => {
     e.preventDefault();
     alert("Please sign in to log a query with support, Thank you!");
 });
 
+// activity when the repair buttons are clicked
 const repairBtn4 = document.getElementById('repairBtn4').addEventListener('click', (e) => {
     e.preventDefault();
     alert("Please sign in to log a query with support, Thank you!");
 });
 
+// activity when the repair buttons are clicked
 const scheduleBtn = document.getElementById("scheduleBtn").addEventListener('click', (e) => {
     e.preventDefault();
     alert("Please sign in to log a query with support, Thank you!");
