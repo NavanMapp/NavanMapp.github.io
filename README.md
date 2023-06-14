@@ -32,7 +32,8 @@
 ## About The Project
 
 <img src="images/screenshot.jpg" alt="Logo">
-Objectives:
+
+## Objectives:
 
 The main objectives of this project are as follows:
 
