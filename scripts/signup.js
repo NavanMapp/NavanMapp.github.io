@@ -1,6 +1,7 @@
 const registerBtn = document.getElementById("btnSignUp").addEventListener('click', (e) => {
     e.preventDefault();
 
+    //declaring variables and fetching value from html form
     const name = document.getElementById('name').value;
 	const email = document.getElementById('email').value;
 	const password = document.getElementById('password').value;
@@ -13,18 +14,14 @@ const registerBtn = document.getElementById("btnSignUp").addEventListener('click
         return false;
     }
 
-    //
-    // if (!(/^\w+([\.-]?\w+)*@w+([\.-]?\w+)*(\.w{2,3})+$/.test(email))) {
-    //     $("#email").css("border-bottom", "solid red 2px");
-    //     $("#error-email").text("Invalid email address format");
-    //     return false;
-    // }
-
+    //verify username length
     if (name.length >= 20 || name.length <= 3) {
         $("#name").css("border-bottom", "solid red 2px");
         $("#error-name").text("Name should be at least 4 Characters");
         return false;
     }
+
+    // verifying if password entered matches
     if (password == '' && confirmPassword == ''){
         $("#password").css("border-bottom", "solid red 2px");
         $("#confirm-password").css("border-bottom", "solid red 1px");
