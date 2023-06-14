@@ -18,7 +18,7 @@ const loginBtn = document.getElementById("btnLogin").addEventListener('click', (
         return false;
     }
 
-    // signing into firebase DB
+    // signing into firebase DB using email and password
     firebase.auth().signInWithEmailAndPassword(email, password)
     .then((userCredentials) => {
         const user = userCredentials.user;
