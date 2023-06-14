@@ -7,7 +7,7 @@ const main_btn = document.getElementById("main_btn").addEventListener('click', (
     const email = document.getElementById('email').value;
     const comment = document.getElementById('comment').value;
 
-    //writing data into firebase database
+    //writing data into firebase DB
     const today = new Date();
     firebase.firestore().collection("queryMessages").doc().set( {
     name: name,
