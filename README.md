@@ -12,9 +12,7 @@
   <br/>
 
   [NavanMapp.github.io]("https://navanmapp.github.io/")  
-    
-    <br/>
-    <br/>
+
   </p>
 </p>
 
@@ -29,7 +27,7 @@
 
 ## About The Project
 
-<img src="images/screenshot.jpg" alt="Logo">
+<img src="images/screenshot.JPG" alt="Logo" width="100" height="120">
 
 ## Objectives:
 
@@ -63,7 +61,7 @@ No Licenses
 
 ## Authors
 
-* **Navan Maphalala** - *ALX Software Engineering Student* - [NavanMapp](https://github.com/NavanMapp/) - *Built ReadME Template*
+* **Navan Maphalala** - *ALX Software Engineering Student* - [NavanMapp](https://github.com/NavanMapp/)
 
 
 
