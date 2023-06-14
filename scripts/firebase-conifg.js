@@ -1,3 +1,4 @@
+// firebase configs
 const firebaseConfig = {
     apiKey: "AIzaSyA8_exOJOe5X_bO6S-tw1pM6pFponFsHeo",
     authDomain: "mapp-supreme.firebaseapp.com",

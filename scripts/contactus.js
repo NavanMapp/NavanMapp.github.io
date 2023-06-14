@@ -1,10 +1,13 @@
+// main button declaration
 const main_btn = document.getElementById("main_btn").addEventListener('click', (e) => {
     e.preventDefault();
 
+    //variable declaration
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const comment = document.getElementById('comment').value;
 
+    //writing data into firebase database
     const today = new Date();
     firebase.firestore().collection("queryMessages").doc().set( {
     name: name,

@@ -1,20 +1,24 @@
 const loginBtn = document.getElementById("btnLogin").addEventListener('click', (e) => {
 
+    //variables
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
+    // email error check
     if (email == '') {
         $("#email").css("border-bottom", "solid red 2px");
         $("#error-email").text("Enter an email");
         return false;
     }
 
+    // password error check
     if (password == ''){
         $("#password").css("border-bottom", "solid red 2px");
         $("#error-password").text("Enter password");
         return false;
     }
 
+    // signing into firebase DB
     firebase.auth().signInWithEmailAndPassword(email, password)
     .then((userCredentials) => {
         const user = userCredentials.user;
