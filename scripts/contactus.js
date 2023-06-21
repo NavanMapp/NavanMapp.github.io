@@ -20,7 +20,7 @@ const main_btn = document.getElementById("main_btn").addEventListener('click', (
         return false;
     });
     swal({
-        title: "Sign Up",
+        title: "Query Log",
         text: "Thank you for contacting us, our support team will be in touch indefinitely",
         icon: "success",
         button: "Login"
